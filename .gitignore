@@ -1,0 +1,48 @@
+build/
+Build/
+out/
+cmake-build-*/
+
+CMakeUserPresets.json
+
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# visual studio
+.vs/
+*.sln
+*.vcxproj
+*.filters
+*.user
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+vcpkg_installed/
+conan.lock
